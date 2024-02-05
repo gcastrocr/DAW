@@ -9,8 +9,8 @@ Author URI: http://www.ginger-ninja.net/
 /* Generic Styling */
 
 body {
-	background:url(bg-body.jpg) repeat-x top center #E8F7F9;
 	font-family:'Arial Narrow';
+	background:url(..\bg-body.jpg) repeat-x top center #E8F7F9;
 	font-size:80%; 
 	color:#222222;
 	}
