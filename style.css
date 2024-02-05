@@ -53,7 +53,7 @@ a:hover {
 #menu {
 	height:35px;
 	line-height:35px;
-	background:url(images/bg-menu.png) repeat-x;
+	background:url(..\bg-menu.png) repeat-x;
 	padding:0 10px;
 	}
 #sidebar {
@@ -96,7 +96,7 @@ a:hover {
 	}
 .comments a {
 	color:#6CC7DC;
-	background:url(images/icon-comment.png) no-repeat 0px 2px;
+	background:url(..\icon-comment.png) no-repeat 0px 2px;
 	padding-left:20px;
 	padding-right:2px;
 	}
@@ -120,7 +120,7 @@ a:hover {
 	margin-right:2px;
 	}
 #menu li a:hover {
-	background:url(images/bg-menu-hover.png) no-repeat center center;
+	background:url(..\bg-menu-hover.png) no-repeat center center;
     color: yellow;
 	}
 
@@ -159,7 +159,7 @@ a:hover {
 #sidebar #autimg{
     width:177px;
 	height:120px;
-	background:url(images/usuario.png) no-repeat;
+	background:url(..\usuario.png) no-repeat;
 }
 
 #sidebar #autname{
@@ -226,7 +226,7 @@ h4 {
 #feed {
 	height:25px;
 	width:126px;
-	background:url(images/bg-feed.gif) no-repeat;
+	background:url(..\bg-feed.gif) no-repeat;
 	margin:0 auto;
 	padding-left:26px;
 	}
@@ -235,7 +235,7 @@ a.feed-button {
 	display:block;
     width:100px;
     height:25px;
-    background:url("images/button-feed.png") 0 0 no-repeat;
+    background:url("..\button-feed.png") 0 0 no-repeat;
     text-decoration: none;
 	}
 
