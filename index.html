@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8">
+    <meta name="description" content="Tarea No1 Diseño de aplicaciones Web">
+    <meta name="keywords" content="HTML, Tarea, UTN">
+    <meta name="author" content="Geilyn Castro Chinchilla">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 1</title>
+    <!--Uso de link para definir el estilo-->
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <!--Base de todos los urls relativos en la página-->
+    <base href=https://www.w3schools.com/ target="_blank">
+    <!--Uso de link para incluir un favicon-->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <header id="header">
+            <h1>Diseño de Aplicaciones Web - Tarea 1</h1>
+        </header>
+
+        <dialog open >
+            <summary>Mostrando el uso de la etiqueta dialog</summary>
+            <q>Aquí se debe incluir la información que se requiere mostrar 
+               dentro de la etiqueta, este ejemplo también usa la etiqueta 'q'</q>
+            <button>OK</button>
+        </dialog>
+
+        <aside id="sidebar">
+            
+            <div class="entry-title"><a href="#">Referecias</a></div>
+            
+            <!--Uso de <base>-->
+            <img src="images/stickman.gif" width="24" height="39" alt="Stickman">
+
+            <ul>
+                <li><a href="https://www.w3schools.com/">Referencia</a></li>
+             </ul>
+            
+            <div id="news" class="entry-title"><a href="#">Autor</a></div>
+            <a href="#"><div id="autimg"></div></a>
+            <address>
+                <i class="fas fa-building"></i>Geilyn Castro Chinchilla<br>
+				<i class="fas fa-map-marker-alt"></i>Aserrí, San Jose, Costa Rica<br>
+				<i class="fas fa-envelope"></i>Correo: 
+                <a href="mailto:info@example.com">geilyncastroc@gmail.com</a>
+            </address>
+            
+        </aside>
+
+        <main id="content">
+
+            <article class="entry">
+                <div class="entry-title"><a href="#">Documentos HTML</a></div>
+                <div class="date">29 de enero, 2024</div>
+                <p>HTM (Lenguaje de Marcas de Hipertexto) es el componente más básico de 
+                    la web. Utiliza marcas para etiquetar  texto, imagenes y otros tipos
+                    de contenido para mostrarlo en un navegador web.
+                </p>
+            </article>
+
+            <article class="entry">
+                <div class="entry-title"><a href="#">Etiquetas de estructura de sección</a></div>
+                <div class="date">29 de enero, 2024</div>
+
+                
+                <details close>
+                    <summary>
+                        <h2>Etiquetas h1 a h6</h2>
+                    </summary>
+                    <p>Las etiquetas de h1 a h6 se utilizan para definir encabezados en HTML,
+                        h1 corresponde el encabezado más importante y h6 el menos importante 
+                        <ul class="Ejemplo">
+                            <li><h2>Este es un ejemplo de h2</h2></li>
+                            <li><h3>Este es un ejemplo de h3</h3></li>
+                            <li><h4>Este es un ejemplo de h4</h4></li>
+                            <li><h5>Este es un ejemplo de h5</h5></li>
+                            <li><h6>Este es un ejemplo de h6</h6></li>
+                        </ul>
+                    </p>
+                </details>
+  
+                <details close>
+                    <summary>
+                        <h2>Etiquetas hgroup</h2>
+                    </summary>
+                    <p>
+                        <hgroup>
+                            <p>
+                                El elemento hgroup se utiliza para marcar que el encabezado y el párrafo están
+                                relacionados.
+                                Ejemplo:
+                                <hgroup>
+                                <h4>Norway</h4>
+                                <p>The land with the midnight sun.</p>
+                                </hgroup>
+                            <p> 
+                        </hgroup>
+                    </p>
+                </details>
+                
+                <details close>
+                    <summary>
+                        <h2>Etiqueta iframe</h2>
+                    </summary>
+                    <div> 
+                        
+                        <p>Se inserta una página por medio de un iframe</p>
+                        <iframe src="https://www.bing.com/"  title="Bing"
+                         width="450px" height="250px"></iframe>
+                    </div>
+                </details>
+
+            </article>
+
+            <article class="entry">
+                <div class="entry-title"><a href="#">Etiquetas de estructura de grupo</a></div>
+                <div class="date">30 de enero, 2024</div>
+
+                <details>
+                    <summary>
+                        <h2>Etiquetas ul y li</h2>
+                    </summary>
+                    <p>Las etiquetas ul son una lista de HTML sin numeración. Las etiquetas li se usan 
+                        dentro de listas numeradas o no para definir un elemento de la lista. 
+                        <pre></pre>
+                        El siguiente es un ejemplo de su uso:
+                    </p>
+                    <h3>Lista del supermercado</h3>
+                    <ul>
+                        <li>Huevos</li>
+                        <li>Pasta </li>
+                        <li>Hongos</li>
+                        <li>Café</li>
+                      </ul>
+                </details>
+
+                <details>
+                    <summary><h2>Etiquetas ol y li</h2></summary>
+                    <hgroup>
+                    
+                        <p>Las etiquetas ol son una lista de HTML numerada. Las etiquetas li se usan dentro 
+                           de listas numeradas o no para definir un elemento de la lista.
+                           El siguiente es un ejemplo de su uso.
+                        </p>
+                        <h3>Lista de compras</h3>
+                        <ol>
+                            <li>Flores</li>
+                            <li>Queso</li>
+                            <li>Chocolate</li>	
+                        </ol>
+                    </hgroup>
+                </details>
+                
+                <details>
+                    <summary><h2>Etiquetas dl, dt y dd</h2></summary>
+                    <hgroup>
+                        <p>La etiqueta dl define una lista de descripción, la etiqueta dt define términos
+                            o nombres y la etiqueta dd describe cada término o nombre</p>
+                        <dl>
+                            <dt>Mitosis</dt>
+                            <dd>f. Biol. División de la célula en la que, previa duplicación del material
+                                genético, cada célula hija recibe una dotación completa de cromosomas.
+                            </dd>
+                            <dt>Clorofila</dt>
+                            <dd>f.Bot. Pigmento propio de las plantas verdes y de ciertas bacterias, que
+                                interviene activamente en el proceso de la fotosíntesis.
+                            </dd>
+                        </dl>
+                    </hgroup>
+                </details>
+                
+                <details>
+                    <summary><h2>Etiquetas figura, figcaption, details and summary</h2></summary>
+                    <hgroup>
+                        <p>Se utiliza la etiqueta figura como elemento para marcar una foto en el documento,
+                           y una etiqueta figcaption para indicar una leyenda para la figura. 
+                           La etiqueta details muestra información adicional que el usuario puede abrir y cerrar.
+                           La etiqueta summary se utiliza en conjunto con la etiqueta details para especificar un 
+                           encabezado visible para el detalle. 
+                        <blockquote cite="https://living.greatpetcare.com/inspiration/dog-best-friend-quotes/">
+                            Do you ever look at your dog and realize that you love them so much that it’s hard to 
+                            put it into words? After all, it’s a relationship like no other! 
+                        </blockquote>    
+                           <img src="C:\Users\Acer\OneDrive\gcastro UTN\2024\Diseño De Aplicaciones Web\Tarea 1\gcastro\images\Dogui-Lira-Pelusa.jpg" alt="Imagen de mis mascotas">
+                           <figcaption>Mis mascotas en navidad:</figcaption>
+                           <details closed>
+                            <summary>Dogui, Lira y Pelusa</summary>
+                                <ul>
+                                    <li>Dogui es el perrito a la izquierda.</li>
+                                    <li>Lira es la perrita a la derecha.</li>
+                                    <li>Pelusa es la perrita blanca.</li>
+                                </ul>
+                        </details>
+                        </p>
+                    </hgroup>  
+                </details>        
+            </article>
+
+            <article class="entry">
+                <div class="entry-title"><a href="#">Etiquetas de texto</a></div>
+                <div class="date">31 de enero, 2024</div>
+
+                <details>
+                    <summary><h2>Etiquetas cita, abbr, dfn, code, b, strong, i, em</h2></summary>
+                    <cite>En este caso la etiqueta kbd en conjunto con la etiqueta "cite" es utilizada 
+                    para dar indicaciones de entrada ejemplo: <kbd>Ctrl</kbd> + <kbd>C</kbd> para 
+                    copiar el texto.</cite>
+				    <p>El término <abbr title="kilómetro">km</abbr> es una unidad de longitud. 
+                    Y representa un ejemplo de la etiqueta "abbr"</p>
+				    <p>La etiqueta <dfn title="definición de la etiqueta">dfn</dfn> nos da la 
+                    posibilidad de marcar el texto en formato cursivo.</p>
+				    <p>La etiqueta "code" nos permite poner un formato de código para dar 
+                    instrucciones de comandos, por ejemplo:</p>
+					<code>CMD + enter</code>
+                    <br><br>
+                    <b>Etiqueta b: etiqueta de texto que define un texto en negrita</b>
+                    <br><br>
+                    <strong>Ejemplo del la etiqueta strong</strong>
+                    <br><br>
+                    <i>Ejemplo de la etiqueta i</i>
+                    <br><br>
+                    <em>Ejemplo de la etiqueta em</em>
+                </details>
+
+                <details>
+                    <summary><h2>Etiquetas mark, small, del, ins, sub, time</h2></summary>
+                    <p>
+                        En este caso vamos a utilizar varias etiquetas que se 
+                        utilizan dentro de un parrafo por ejemplo: 
+                        <br><br>
+                        <mark>texto marcado</mark>
+                        <br><br>
+                        <small>un texto más pequeño</small>
+                        <br><br>
+                        <del>texto eliminado </del>
+                        <br><br>
+                        <ins>texto insertado</ins>
+                        <br><br>
+                        Indicar un subindice: H<sub>2</sub>O 
+                        <br><br>
+                        Indicar un super índice: m<sup>3</sup>
+                        <br><br>
+                        Además incluimos la hora: <time datetime="2024-01-30T21:10:00-06:00">30 de enero de 2024, 9:10 PM</time>
+                    </p>
+                </details>
+
+                <details>
+                    <summary><h2>Etiquetas data y span</h2></summary>
+                    <p>
+                        <h3>Ejemplo de etiqueta data</h3>
+                            <p>La etiqueta data permite incluir información que puede ser leída por la máquina
+                                e información a mostrar en la página.
+                            </p>
+                            <ul>
+                                <li><data value="21053">Tomate</data></li>
+                                <li><data value="21054">Tomate pera</data></li>
+                                <li><data value="21055">Salsa de tomate</data></li>
+                            </ul>
+                        <p></p>
+                        <h3>Ejemplo de etiqueta span</h3>
+                        <p>La etiqueta span se puede utilizar como
+                           un contenedor en linea para marcar una parte del texto.
+                           Por ejemplo la palabra verde en la siguiente oración: 
+                           Las hermosas montañas <span style="color:rgb(8, 88, 8)">verdes</span>.
+                    </p>
+                </details>
+
+            </article>
+
+            <article class="entry">
+            <div class="entry-title"><a href="#">Etiquetas de enlace</a></div>
+            <div class="date">31 de enero, 2024</div>
+
+            <details>
+                <summary><h2>Etiqueta a</h2></summary>
+                <p>La etiqueta a define un hiperlink, que se utiliza para conectar
+                   una página con otra
+                   <a href="https://www.google.com">google.com</a>
+                </p>
+            </details>
+
+            <details>
+                <summary><h2>Etiqueta area y mapa</h2></summary>
+                <p>La etiqueta area define un area dentro de una imagen de mapa (imagen con áreas a las
+                   que se les puede dar click). Los elementos area se encuentran anidados dentro de una
+                   etiqueta mapa.
+                </p>
+                <img src="C:\Users\Acer\OneDrive\gcastro UTN\2024\Diseño De Aplicaciones Web\Tarea 1\gcastro\images\workplace.jpg" 
+                alt="Workplace" usemap="#workmap" width="400" height="379">
+                <map name="workmap">
+                    <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://www.w3schools.com/w3images/mac.jpg">
+                    <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://www.w3schools.com/w3images/cellphone.jpg">
+                    <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="https://www.w3schools.com/w3images/coffeehouse2.jpg">
+                </map>
+            </details>
+            </article>
+
+            <article class="entry">
+                <div class="entry-title"><a href="#">Etiquetas de imagen</a></div>
+                <div class="date">31 de enero, 2024</div>
+                <details>
+                    <summary><h2>Etiqueta picture y source</h2></summary>
+                    <p>Permite utilizar multiples imágenes de manera que se ajusten al tamaño del display
+                    </p>
+                    <picture>
+                        <source media="(min-width:100px)" srcset="C:\Users\Acer\OneDrive\gcastro UTN\2024\Diseño De Aplicaciones Web\Tarea 1\gcastro\images\german-shepherd-puppy.jpg">
+                        <source media="(min-width:465px)" srcset="C:\Users\Acer\OneDrive\gcastro UTN\2024\Diseño De Aplicaciones Web\Tarea 1\gcastro\images\german-shepherd-puppy.jpg">
+                        <img src="C:\Users\Acer\OneDrive\gcastro UTN\2024\Diseño De Aplicaciones Web\Tarea 1\gcastro\images\german-shepherd.jpeg" alt="Pastor" style="width:auto;">
+                    </picture>
+                      
+                </details>
+                <details>
+                    <summary><h2>Etiqueta canvas</h2></summary>
+                    <p>
+                        La etiqueta canva se utiliza para dibujar gráficos utilizando JavaScript. 
+                    </p>
+                        <canvas id="myCanvas">
+                        Your browser does not support the canvas tag.
+                        </canvas>  
+                        <script>
+                        let canvas = document.getElementById("myCanvas");
+                        let ctx = canvas.getContext("2d");
+                        ctx.fillStyle = "#EB21B2";
+                        ctx.fillRect(50, 20, 80, 80);
+                        </script>
+                </details>
+                <details>
+                    <summary><h2>Etiqueta svg</h2></summary>
+                    <p>
+                        La etiqueta svg permite definir un contenedor para gráficos SVG.
+                    </p>
+                    <svg width="100" height="100">
+                        <circle cx="50" cy="50" r="40" stroke="light blue" stroke-width="4" fill="pink" />
+                    </svg>
+                </details>
+            </article>
+
+            <article class="entry">
+            <div class="entry-title"><a href="#">Etiquetas multimedia</a></div>
+            <div class="date">31 de enero, 2024</div>
+            <details>
+                <summary><h2>Etiqueta audio</h2></summary>
+                <p>
+                    La etiqueta audio permite incluir sonido en un documento html como música.
+                </p>
+                <audio controls>
+                    <source src="horse.ogg" type="audio/ogg">
+                    <source src="horse.mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                </audio>
+            </details>
+            <details>
+                <summary><h2>Etiqueta video</h2></summary>
+                <p>
+                    La etiqueta video se utiliza para reproducir video en la página web
+                </p>
+                <video width="320" height="240" controls>
+                    <source src="movie.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+            </details>
+            <details>
+                <summary><h2>Etiqueta track</h2></summary>
+                <p>
+                    Se utiliza para incluir subtitulos u otro tipo de texto que debe reproducirse
+                    cuando se reproduce media.
+                </p>
+                <video width="320" height="240" controls>
+                    <source src="forrest_gump.mp4" type="video/mp4">
+                    <source src="forrest_gump.ogg" type="video/ogg">
+                    <track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+                    <track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+                  </video>
+            </details>
+
+            </article>
+
+        </main>
+
+        <footer id="footer">
+            <div id="footer-valid">
+                <credit>&copy; Derechos Reservados ISW-DAW UTN 
+                    Tarea 1 Geilyn Castro Chinchilla. 
+                </credit>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
