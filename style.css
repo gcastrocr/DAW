@@ -10,7 +10,7 @@ Author URI: http://www.ginger-ninja.net/
 
 body {
 	font-family:'Arial Narrow';
-	background:url(https://github.com/gcastrocr/DAW.git/bg-body.jpg) repeat-x top center #E8F7F9;
+	background:url(../bg-body.jpg) repeat-x top center #E8F7F9;
 	font-size:80%; 
 	color:#222222;
 	}
