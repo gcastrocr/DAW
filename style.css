@@ -159,7 +159,7 @@ a:hover {
 #sidebar #autimg{
     	width:177px;
 	height:120px;
-	background: url(usuario.png) no-repeat;
+	background: url(usuario.png) repeat-x top center;
 }
 
 #sidebar #autname{
