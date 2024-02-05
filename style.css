@@ -53,7 +53,7 @@ a:hover {
 #menu {
 	height:35px;
 	line-height:35px;
-	background:url(..\bg-menu.png) repeat-x;
+	background:url(bg-menu.png) repeat-x;
 	padding:0 10px;
 	}
 #sidebar {
@@ -96,7 +96,7 @@ a:hover {
 	}
 .comments a {
 	color:#6CC7DC;
-	background:url(..\icon-comment.png) no-repeat 0px 2px;
+	background:url(icon-comment.png) no-repeat 0px 2px;
 	padding-left:20px;
 	padding-right:2px;
 	}
@@ -120,7 +120,7 @@ a:hover {
 	margin-right:2px;
 	}
 #menu li a:hover {
-	background:url(..\bg-menu-hover.png) no-repeat center center;
+	background:url(\bg-menu-hover.png) no-repeat center center;
     color: yellow;
 	}
 
@@ -159,7 +159,7 @@ a:hover {
 #sidebar #autimg{
     	width:177px;
 	height:120px;
-	background:url(usuario.png)) no-repeat;
+	background: url(usuario.png) no-repeat;
 }
 
 #sidebar #autname{
